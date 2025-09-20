@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us – Srijan Academy</title>
+  <meta name="description" content="Contact Srijan Academy, Balconagar, Korba. Address, phone, email, and contact form." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="Srijan Academy logo"/>
+        <span class="brand-name">Srijan Academy</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn" href="admissions.html#inquiry">Enroll Now</a>
+      </nav>
+      <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="breadcrumbs">Home / Contact</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="features">
+          <div class="card">
+            <div class="icon">📍</div>
+            <h3>Address</h3>
+            <p>Above Chhattisgarh Rajya Gramin Bank, Balconagar, Korba, Chhattisgarh</p>
+          </div>
+          <div class="card">
+            <div class="icon">📞</div>
+            <h3>Phone</h3>
+            <p><a href="tel:8252184647">8252184647</a></p>
+          </div>
+          <div class="card">
+            <div class="icon">✉️</div>
+            <h3>Email</h3>
+            <p><a href="mailto:info@srijanacademy.com">info@srijanacademy.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2 class="section-title">Location Map</h2>
+        <div class="gallery-grid">
+          <iframe title="Srijan Academy Location" src="https://www.google.com/maps?q=Chhattisgarh%20Rajya%20Gramin%20Bank%20Balconagar%20Korba&output=embed" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Send us a message</h2>
+        <form id="contact-form" class="form" action="https://formspree.io/f/xbldzjkd" method="POST">
+          <div>
+            <label for="cname">Name</label>
+            <input class="input" type="text" id="cname" name="name" placeholder="Your name" required />
+          </div>
+          <div>
+            <label for="cemail">Email</label>
+            <input class="input" type="email" id="cemail" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="full">
+            <label for="subject">Subject</label>
+            <input class="input" type="text" id="subject" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="full">
+            <label for="cmessage">Message</label>
+            <textarea id="cmessage" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          </div>
+          <div class="actions">
+            <button class="btn" type="submit">Send Message</button>
+          </div>
+        </form>
+        <p class="muted">Forms use a placeholder Formspree endpoint. Replace it with your own before launching.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container cols">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="assets/img/logo.svg" alt="Srijan Academy logo"/>
+          <span class="brand-name">Srijan Academy</span>
+        </a>
+        <p class="muted">Above Chhattisgarh Rajya Gramin Bank, Balconagar, Korba, Chhattisgarh</p>
+        <small>Director: Swarajkr Thakur · Call: 8252184647</small>
+      </div>
+      <div>
+        <h4>Academy</h4>
+        <p><a href="about.html">About</a><br/><a href="courses.html">Courses</a><br/><a href="admissions.html">Admissions</a></p>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <p><a href="contact.html">Contact</a><br/><a href="gallery.html">Gallery</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

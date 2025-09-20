@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admissions – Srijan Academy</title>
+  <meta name="description" content="Admissions at Srijan Academy: process, eligibility, documents, fee information, and inquiry form." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="Srijan Academy logo"/>
+        <span class="brand-name">Srijan Academy</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn" href="#inquiry">Enroll Now</a>
+      </nav>
+      <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Admissions</h1>
+        <p class="breadcrumbs">Home / Admissions</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Admission Process</h2>
+        <ol class="checklist">
+          <li>Submit an online inquiry or visit our academy.</li>
+          <li>Attend a counseling session to discuss goals and batch options.</li>
+          <li>Take a short assessment (if applicable) for appropriate level.</li>
+          <li>Complete registration and submit documents.</li>
+        </ol>
+        <div class="spacer"></div>
+        <h3>Eligibility Criteria</h3>
+        <ul class="checklist">
+          <li>Open to students of Classes 3–12 from any recognized school/board.</li>
+          <li>Willingness to attend regular classes and participate in assessments.</li>
+        </ul>
+        <div class="spacer"></div>
+        <h3>Required Documents</h3>
+        <ul class="checklist">
+          <li>Recent passport-size photograph</li>
+          <li>School ID or last mark sheet (copy)</li>
+          <li>Parent/Guardian contact details</li>
+        </ul>
+        <div class="spacer"></div>
+        <h3>Fee Structure</h3>
+        <p>For detailed fee information, please <a href="contact.html">contact us</a>. We offer flexible payment options.</p>
+      </div>
+    </section>
+
+    <section id="inquiry" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Online Inquiry Form</h2>
+        <form id="admission-form" class="form" action="https://formspree.io/f/xbldzjkd" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input class="input" type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div>
+            <label for="class">Class</label>
+            <input class="input" type="text" id="class" name="class" placeholder="e.g., Class 10" required />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input class="input" type="tel" id="phone" name="phone" placeholder="8252184647" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input class="input" type="email" id="email" name="email" placeholder="you@example.com" />
+          </div>
+          <div class="full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your goals"></textarea>
+          </div>
+          <div class="actions">
+            <button class="btn" type="submit">Submit Inquiry</button>
+          </div>
+        </form>
+        <p class="muted">Note: The form uses a placeholder Formspree endpoint. Replace it with your own or connect to your backend.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container cols">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="assets/img/logo.svg" alt="Srijan Academy logo"/>
+          <span class="brand-name">Srijan Academy</span>
+        </a>
+        <p class="muted">Above Chhattisgarh Rajya Gramin Bank, Balconagar, Korba, Chhattisgarh</p>
+        <small>Director: Swarajkr Thakur · Call: 8252184647</small>
+      </div>
+      <div>
+        <h4>Academy</h4>
+        <p><a href="about.html">About</a><br/><a href="courses.html">Courses</a><br/><a href="admissions.html">Admissions</a></p>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <p><a href="contact.html">Contact</a><br/><a href="gallery.html">Gallery</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
